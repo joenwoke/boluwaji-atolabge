@@ -44,7 +44,7 @@ body {
 
 .nav-links {
   list-style: none;
-  display: flex;
+  display: flex;   
   gap: 20px;
 }
 
@@ -60,12 +60,11 @@ body {
 }
 
 .hamburger {
-  display: none;
-  background: none;
-  border: none;
+  display: none;  
   font-size: 24px;
   color: white;
-  cursor: pointer;
+  background: none;
+  border: none;
 }
 
 /* Section Styling */
@@ -82,12 +81,11 @@ body {
   color: #004d66;
 }
 
-/* Profile Image */
 .profile-img {
   display: block;
-  margin: 0 auto 20px auto;
-  width: 150px;
-  height: 150px;
+  margin: 0 auto 30px auto;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #004d66;
